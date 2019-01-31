@@ -6,7 +6,7 @@ var bodyParser = require('body-parser');
 var app = express();
 
 // Serve static content for the app from the "public" directory in the application directory.
-app.use(express.static(process.cwd() + '/public'));
+app.use(express.static(process.cwd()));
 
 app.use(bodyParser.urlencoded({
   extended: false
@@ -33,7 +33,7 @@ var PORT = process.env.PORT || 3001;
 
 var db = process.env.DATABASE_URL || 'localhost'
 
-app.use(express.static(process.cwd() + '/public'));
+app.use(express.static(process.cwd()));
 app.use(bodyParser.urlencoded({
 	extended: false
 }))
