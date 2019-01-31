@@ -22,14 +22,14 @@ app.set('view engine', 'handlebars');
 var routes = require('./controllers/burgers_controller.js');
 app.use('/', routes);
 
-var port = process.env.PORT || 3031;
-app.listen(port);
+// var port = process.env.PORT || 3000;
+// // app.listen(port);
 
 var express = require('express');
 var bodyParser = require('body-parser');
 var methodOverride = require('method-override')
 var app = express();
-var PORT = process.env.PORT || 3031;
+var PORT = process.env.PORT || 3001;
 
 var db = process.env.DATABASE_URL || 'localhost'
 
