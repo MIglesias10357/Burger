@@ -1,7 +1,7 @@
 body {
   width: 100%;
-  background-color: #fff;
-  background-image: url("http://www.seantindell.com/wp-content/uploads/2014/09/bg.jpg");
+  background-color: goldenrod;
+  /* background-image: url("http://www.seantindell.com/wp-content/uploads/2014/09/bg.jpg"); */
   overflow: hidden;
   color: #fff;
   font-family: 'Roboto', sans-serif;
@@ -53,5 +53,5 @@ text-align: center;
 
 button {
   background-color: #000;
-  color: yellow;
+  color: grey;
 }
